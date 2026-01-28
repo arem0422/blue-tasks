@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+blue-tasks/.env
+blue-tasks/vendor
+blue-tasks/storage/*.key
+blue-tasks/storage/logs/*
+blue-tasks/storage/framework/*
+!blue-tasks/storage/framework/.gitignore
+
+# Angular
+blue-tasks-frontend/node_modules
+blue-tasks-frontend/dist
+blue-tasks-frontend/.angular/cache
+
+# IDE
+.vscode
+.idea
